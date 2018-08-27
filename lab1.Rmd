@@ -1,0 +1,46 @@
+---
+title: "My first Rmd file"
+author: "Marissa Ashner"
+date: "8/27/2018"
+output: html_document
+---
+
+# Header 
+
+text 
+
+*italics* **bold**
+a
+b
+c
+
+a
+
+b
+
+c
+
+* List 1
+
+* List 2
+
+$A = \pi\ \times r^2$
+
+The `dplyr` package
+
+Three plus three is `r 3+3`
+
+```{r, eval=FALSE}
+set.seed(10)
+rnorm(10)
+```
+
+```{r, warning = FALSE}
+library(knitr)
+kable(mtcars[1:4,1:3], caption="My table")
+```
+
+
+
+
+
